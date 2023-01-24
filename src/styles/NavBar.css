@@ -1,0 +1,64 @@
+.NavBar {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  top: 40px;
+  left: 55px;
+  right: 0;
+  color: white;
+}
+
+.NavBar .trait {
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  left: 7%;
+  top: 48px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  z-index: 10;
+}
+
+.NavBar .list {
+  display: flex;
+  align-items: center;
+  width: 55%;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+}
+
+.NavBar .list .item-list {
+  display: flex;
+  align-items: center;
+  padding-top: 39px;
+  padding-bottom: 38px;
+  margin-left: 123px;
+}
+
+.NavBar .list .item-list li {
+  display: flex;
+  align-items: center;
+  height: 19px;
+  padding: 0;
+  margin-right: 48px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-family: "Belrow Condensed";
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: 2.7px;
+  font-size: 16px;
+}
+
+.NavBar .list .item-list li:last-child {
+  margin-right: 15%;
+}
+
+.NavBar .list .item-list li .number {
+  font-weight: bold;
+  font-size: 16px;
+  padding-right: 5px;
+}
