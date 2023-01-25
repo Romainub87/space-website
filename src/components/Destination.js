@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 
 function Destination() {
   return <div className="destination">
+    <NavBar/>
     <h1 className="text-black">Destination</h1>
   </div>;
 }
