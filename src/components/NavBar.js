@@ -9,7 +9,7 @@ function NavBar() {
       <div className="list">
         <ul class="item-list">
           <li>
-            <a href="/">
+            <a href="/space-website">
               <span className="number">00</span> Home
             </a>
           </li>
