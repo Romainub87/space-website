@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap");
 
 .NavBar {
     display: flex;
@@ -31,15 +31,12 @@
         backdrop-filter: blur(40.7742px);
 
         .item-list {
-            
             display: flex;
             align-items: center;
             padding-top: 39px;
             padding-bottom: 38px;
             margin-left: 123px;
             font-family: "Barlow Condensed";
-            
-            
 
             li {
                 display: flex;
@@ -49,7 +46,7 @@
                 margin-top: 0;
                 margin-bottom: 0;
                 text-transform: uppercase;
-                
+
                 font-style: normal;
                 font-weight: 100;
                 letter-spacing: 2.7px;
@@ -57,11 +54,10 @@
 
                 a {
                     display: flex;
-                
                 }
 
                 &:last-child {
-                    margin-right:15% ;
+                    margin-right: 15%;
                 }
 
                 .number {
