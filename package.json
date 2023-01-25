@@ -1,4 +1,5 @@
 {
+  "homepage": "https://romainub87.github.io/space-website",
   "name": "space-website",
   "version": "0.1.0",
   "private": true,
@@ -38,6 +39,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romainub87/space-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romainub87/space-website/issues"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
