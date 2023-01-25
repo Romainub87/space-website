@@ -53,6 +53,10 @@
   font-size: 16px;
 }
 
+.NavBar .list .item-list li a {
+  display: flex;
+}
+
 .NavBar .list .item-list li:last-child {
   margin-right: 15%;
 }

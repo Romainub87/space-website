@@ -9,10 +9,14 @@ function NavBar() {
       <div className="list">
         <ul class="item-list">
           <li>
-            <span className="number">00</span> Home
+            <a href="/">
+              <span className="number">00</span> Home
+            </a>
           </li>
           <li>
-            <span className="number">01</span> Destination
+            <a href="/destination">
+              <span className="number">01</span> Destination
+            </a>
           </li>
           <li>
             <span className="number">02</span> Crew
