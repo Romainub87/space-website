@@ -9,22 +9,22 @@ function NavBar() {
       <div className="list">
         <ul class="item-list">
           <li>
-            <a href="space-website">
+            <a href="%PUBLIC_URL%/">
               <span className="number">00</span> Home
             </a>
           </li>
           <li>
-            <a href="space-website/destination">
+            <a href="%PUBLIC_URL%/destination">
               <span className="number">01</span> Destination
             </a>
           </li>
           <li>
-            <a href="space-website/crew">
+            <a href="%PUBLIC_URL%/crew">
               <span className="number">02</span> Crew
             </a>
           </li>
           <li>
-            <a href="space-website/tech">
+            <a href="%PUBLIC_URL%/tech">
               <span className="number">03</span> Technology
             </a>
           </li>
