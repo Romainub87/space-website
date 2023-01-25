@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+
 .NavBar {
     display: flex;
     position: absolute;
@@ -10,10 +12,10 @@
 
     .trait {
         position: absolute;
-        width: 40%;
+        width: 42%;
         height: 1px;
-        left: 7%;
-        top: 48px;
+        left: 88px;
+        top: 50px;
 
         background: #ffffff;
         mix-blend-mode: normal;
@@ -35,17 +37,17 @@
             padding-top: 39px;
             padding-bottom: 38px;
             margin-left: 123px;
+            font-family: "Barlow Condensed";
 
             li {
                 display: flex;
                 align-items: center;
-                height: 19px;
                 padding: 0;
                 margin-right: 48px;
                 margin-top: 0;
                 margin-bottom: 0;
                 text-transform: uppercase;
-                font-family: "Belrow Condensed";
+                
                 font-style: normal;
                 font-weight: 100;
                 letter-spacing: 2.7px;
