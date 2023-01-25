@@ -14,17 +14,17 @@ function NavBar() {
             </a>
           </li>
           <li>
-            <a href="/destination">
+            <a href="/space-website/destination">
               <span className="number">01</span> Destination
             </a>
           </li>
           <li>
-            <a href="/crew">
+            <a href="/space-website/crew">
               <span className="number">02</span> Crew
             </a>
           </li>
           <li>
-            <a href="/tech">
+            <a href="/space-website/tech">
               <span className="number">03</span> Technology
             </a>
           </li>

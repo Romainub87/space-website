@@ -13,9 +13,9 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/space-website" element={<Home />} />
-      <Route path="/destination" element={<Destination/>} />
-      <Route path="/crew" element={<Crew />} />
-      <Route path="/tech" element={<Technology />} />
+      <Route path="/space-website/destination" element={<Destination/>} />
+      <Route path="/space-website/crew" element={<Crew />} />
+      <Route path="/space-website/tech" element={<Technology />} />
     </Routes>
   </BrowserRouter>
 );
