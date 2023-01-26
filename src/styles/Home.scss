@@ -1,10 +1,15 @@
 $Grey-blue: rgb(208, 214, 249);
 
+
+
+
 .Home {
     height: 100vh;
     width: 100vw;
     background: url("../assets/home/background-home-desktop.jpg");
     background-size: cover;
+
+   
 
     .description {
         width: 450px;
@@ -60,11 +65,14 @@ $Grey-blue: rgb(208, 214, 249);
         height: 274px;
         width: 274px;
         border-radius: 100%;
+        transition: transform 1s;
 
         &:hover {
             color: white;
             background-color: black;
             cursor: pointer;
+            transform: scale(115%);
+            transition: transform 1s;
         }
     }
 }
