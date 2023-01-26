@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/space-website/static/css/main.5ab1fcc6.css",
-    "main.js": "/space-website/static/js/main.91f5db76.js",
+    "main.js": "/space-website/static/js/main.d8c2418c.js",
     "static/js/787.82092441.chunk.js": "/space-website/static/js/787.82092441.chunk.js",
     "static/media/background-home-desktop.jpg": "/space-website/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
     "static/media/image-moon.png": "/space-website/static/media/image-moon.d287d07182de3015952f.png",
@@ -12,11 +12,11 @@
     "index.html": "/space-website/index.html",
     "static/media/logo.svg": "/space-website/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "main.5ab1fcc6.css.map": "/space-website/static/css/main.5ab1fcc6.css.map",
-    "main.91f5db76.js.map": "/space-website/static/js/main.91f5db76.js.map",
+    "main.d8c2418c.js.map": "/space-website/static/js/main.d8c2418c.js.map",
     "787.82092441.chunk.js.map": "/space-website/static/js/787.82092441.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ab1fcc6.css",
-    "static/js/main.91f5db76.js"
+    "static/js/main.d8c2418c.js"
   ]
 }
