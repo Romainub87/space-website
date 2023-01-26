@@ -1,5 +1,5 @@
 {
-  "homepage": "https://romainub87.github.io/space-website",
+  "homepage": "https://romainub87.github.io/space-website/",
   "name": "space-website",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^6.7.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4",
     "webpack": "^5.75.0",
@@ -40,7 +41,6 @@
       "last 1 safari version"
     ]
   },
-
   "devDependencies": {
     "gh-pages": "^5.0.0",
     "react-router-dom": "^6.7.0",

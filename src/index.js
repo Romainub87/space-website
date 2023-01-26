@@ -3,19 +3,19 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import Home from "./components/Home";
 import reportWebVitals from "./reportWebVitals";
-import {  Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Destination from "./components/Destination";
 import Crew from "./components/Crew";
 import Technology from "./components/Technology";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/space-website">
     <Routes>
-      <Route path="/space-website" exact element={<Home />} />
-      <Route path="/space-website/destination" exact element={<Destination/>} />
-      <Route path="/space-website/crew" exact element={<Crew />} />
-      <Route path="/space-website/tech" exact element={<Technology />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/destination" element={<Destination />} />
+      <Route path="/crew" element={<Crew />} />
+      <Route path="/tech" element={<Technology />} />
     </Routes>
   </BrowserRouter>
 );
