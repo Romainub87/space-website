@@ -25,7 +25,12 @@
 .destination .content-destination {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-top: 64px;
+}
+
+.destination .content-destination img {
+  height: 445px;
 }
 
 .destination .content-destination .text-destination {
@@ -56,6 +61,55 @@
 .destination .content-destination .text-destination .name-planet {
   font-size: 100px;
   font-family: Bellefair;
+}
+
+.destination .content-destination .text-destination .description-planet {
+  color: #d0d6f9;
+  font-size: 18px;
+  font-family: "Barlow";
+  line-height: 32px;
+  text-align: left;
+  width: 94%;
+  margin-bottom: 54px;
+}
+
+.destination .content-destination .text-destination .trait {
+  width: 95%;
+  height: 1px;
+  background-color: #383b4b;
+  margin-bottom: 28px;
+}
+
+.destination .content-destination .text-destination .stat-planet {
+  display: flex;
+  font-family: "Bellefair";
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.destination .content-destination .text-destination .stat-planet .distance {
+  display: flex;
+  flex-direction: column;
+  margin-right: 79px;
+}
+
+.destination .content-destination .text-destination .stat-planet .distance .text-distance {
+  font-family: "Barlow Condensed";
+  margin-bottom: 12px;
+  font-size: 14px;
+  letter-spacing: 2.36px;
+}
+
+.destination .content-destination .text-destination .stat-planet .travel-time {
+  display: flex;
+  flex-direction: column;
+}
+
+.destination .content-destination .text-destination .stat-planet .travel-time .text-travel {
+  font-family: "Barlow Condensed";
+  margin-bottom: 12px;
+  font-size: 14px;
+  letter-spacing: 2.36px;
 }
 
 .destination .active {

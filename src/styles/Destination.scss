@@ -1,3 +1,5 @@
+$Grey-blue: rgb(208, 214, 249);
+
 .destination {
     height: 100vh;
     width: 100vw;
@@ -25,7 +27,12 @@
     .content-destination {
         display: flex;
         justify-content: space-around;
+        align-items: center;
         margin-top: 64px;
+
+        img {
+            height: 445px;
+        }
 
         .text-destination {
             width: 472px;
@@ -54,6 +61,55 @@
             .name-planet {
                 font-size: 100px;
                 font-family: Bellefair;
+            }
+
+            .description-planet {
+                color: $Grey-blue;
+                font-size: 18px;
+                font-family: "Barlow";
+                line-height: 32px;
+                text-align: left;
+                width: 94%;
+                margin-bottom: 54px;
+            }
+
+            .trait {
+                width: 95%;
+                height: 1px;
+                background-color: #383b4b;
+                margin-bottom: 28px;
+            }
+
+            .stat-planet {
+                display: flex;
+                font-family: "Bellefair";
+                text-transform: uppercase;
+                font-size: 28px;
+
+                .distance {
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 79px;
+
+                    .text-distance {
+                        font-family: "Barlow Condensed";
+                        margin-bottom: 12px;
+                        font-size: 14px;
+                        letter-spacing: 2.36px;
+                    }
+                }
+
+                .travel-time {
+                    display: flex;
+                    flex-direction: column;
+
+                    .text-travel {
+                        font-family: "Barlow Condensed";
+                        margin-bottom: 12px;
+                        font-size: 14px;
+                        letter-spacing: 2.36px;
+                    }
+                }
             }
         }
     }
