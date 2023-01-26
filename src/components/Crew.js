@@ -1,7 +1,15 @@
 import NavBar from "./NavBar";
 import "../styles/Crew.css";
+import { useState } from "react";
 
 function Crew() {
+
+    const [nbPerso, setNbPerso] = useState(0);
+
+    function setDisplayPerso(nb) {
+        setNbPerso(nb);
+    }
+
     return (
         <div className="crew">
             <NavBar/>
