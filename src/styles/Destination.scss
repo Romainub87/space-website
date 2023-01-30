@@ -54,6 +54,7 @@ $Grey-blue: rgb(208, 214, 249);
 
                     &:hover {
                         cursor: pointer;
+                        
                     }
                 }
             }
@@ -116,5 +117,11 @@ $Grey-blue: rgb(208, 214, 249);
 
     .active {
         border-bottom: white solid 4px;
+    }
+
+    .presque {
+        &:hover {
+            border-bottom: 4px rgba($color: white, $alpha: 0.25) solid;
+        }
     }
 }

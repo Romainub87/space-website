@@ -29,25 +29,25 @@ function Destination() {
           <nav className="navbar-planet">
             <li
               onClick={() => changeTemplate(0)}
-              className={nbPlanet === 0 ? "item-planet active" : "item-planet"}
+              className={nbPlanet === 0 ? "item-planet active" : "item-planet presque"}
             >
               Moon
             </li>
             <li
               onClick={() => changeTemplate(1)}
-              className={nbPlanet === 1 ? "item-planet active" : "item-planet"}
+              className={nbPlanet === 1 ? "item-planet active" : "item-planet presque"}
             >
               Mars
             </li>
             <li
               onClick={() => changeTemplate(2)}
-              className={nbPlanet === 2 ? "item-planet active" : "item-planet"}
+              className={nbPlanet === 2 ? "item-planet active" : "item-planet presque"}
             >
               Europa
             </li>
             <li
               onClick={() => changeTemplate(3)}
-              className={nbPlanet === 3 ? "item-planet active" : "item-planet"}
+              className={nbPlanet === 3 ? "item-planet active" : "item-planet presque"}
             >
               Titan
             </li>

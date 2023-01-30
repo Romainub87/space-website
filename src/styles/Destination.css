@@ -115,3 +115,7 @@
 .destination .active {
   border-bottom: white solid 4px;
 }
+
+.destination .presque:hover {
+  border-bottom: 4px rgba(255, 255, 255, 0.25) solid;
+}

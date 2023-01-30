@@ -62,8 +62,9 @@
 
 .crew .content-crew .change-crew {
   display: flex;
+  position: absolute;
   justify-content: space-between;
-  margin-top: 120px;
+  bottom: 94px;
   width: 132px;
 }
 
@@ -77,4 +78,8 @@
 
 .crew .content-crew .change-crew .active {
   opacity: 1;
+}
+
+.crew .content-crew .change-crew .presque:hover {
+  opacity: 0.5;
 }

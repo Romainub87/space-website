@@ -62,8 +62,9 @@ $Grey-blue: rgb(208, 214, 249);
 
         .change-crew {
             display: flex;
+            position: absolute;
             justify-content: space-between;
-            margin-top: 120px;
+            bottom: 94px;
             width: 132px;
 
             .btn {
@@ -76,9 +77,11 @@ $Grey-blue: rgb(208, 214, 249);
             .active {
                 opacity: 1;
             }
+            .presque {
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
         }
     }
-
-
-   
 }
