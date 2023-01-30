@@ -1,12 +1,15 @@
 import NavBar from "./NavBar";
 import Douglas from "../assets/crew/image-douglas-hurley.png";
+import Ann from "../assets/crew/image-anousheh-ansari.png";
+import Mark from "../assets/crew/image-mark-shuttleworth.png";
+import Victor from "../assets/crew/image-victor-glover.png";
 import "../styles/Crew.css";
 import { useState } from "react";
 
 function Crew() {
   const [nbPerso, setNbPerso] = useState(0);
 
-  function setDisplayPerso(nb) {
+  function DisplayPerso(nb) {
     setNbPerso(nb);
   }
 
@@ -28,7 +31,34 @@ function Crew() {
           </div>
         </div>
         <div className="img-crew">
-          <img src={Douglas} alt="img-crew" className="img-perso"></img>
+          {nbPerso === 0 ? (
+            <img
+              src={Douglas}
+              alt="img-crew"
+              width="500"
+              className="img-perso"
+            />
+          ) : null}
+          {nbPerso === 1 ? (
+            <img
+              src={Ann}
+              alt="img-crew"
+              width="600"
+              height="500"
+              className="img-perso"
+            />
+          ) : null}
+          {nbPerso === 2 ? (
+            <img
+              src={Victor}
+              alt="img-crew"
+              width="530"
+              className="img-perso"
+            />
+          ) : null}
+          {nbPerso === 3 ? (
+            <img src={Mark} alt="img-crew" width="450" className="img-perso" />
+          ) : null}
         </div>
       </div>
     </div>
