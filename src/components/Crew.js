@@ -30,6 +30,60 @@ function Crew() {
             third time as commander of Crew Dragon Demo-2.
           </div>
         </div>
+        <div className="change-crew">
+          {nbPerso === 0 ? (
+            <button
+              type="button"
+              onClick={() => DisplayPerso(0)}
+              className="btn active"
+            />
+          ) : (
+            <button
+              type="button"
+              onClick={() => DisplayPerso(0)}
+              className="btn"
+            />
+          )}
+          {nbPerso === 1 ? (
+            <button
+              type="button"
+              onClick={() => DisplayPerso(1)}
+              className="btn active"
+            />
+          ) : (
+            <button
+              type="button"
+              onClick={() => DisplayPerso(1)}
+              className="btn"
+            />
+          )}
+          {nbPerso === 2 ? (
+            <button
+              type="button"
+              onClick={() => DisplayPerso(2)}
+              className="btn active"
+            />
+          ) : (
+            <button
+              type="button"
+              onClick={() => DisplayPerso(2)}
+              className="btn"
+            />
+          )}
+          {nbPerso === 3 ? (
+            <button
+              type="button"
+              onClick={() => DisplayPerso(3)}
+              className="btn active"
+            />
+          ) : (
+            <button
+              type="button"
+              onClick={() => DisplayPerso(3)}
+              className="btn"
+            />
+          )}
+        </div>
         <div className="img-crew">
           {nbPerso === 0 ? (
             <img
