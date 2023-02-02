@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/space-website/static/css/main.9506ac1c.css",
-    "main.js": "/space-website/static/js/main.20617143.js",
+    "main.css": "/space-website/static/css/main.8b99ef7e.css",
+    "main.js": "/space-website/static/js/main.4bc497d3.js",
     "static/js/787.82092441.chunk.js": "/space-website/static/js/787.82092441.chunk.js",
+    "static/media/image-victor-glover.png": "/space-website/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
+    "static/media/image-anousheh-ansari.png": "/space-website/static/media/image-anousheh-ansari.2d647128496ddc638acd.png",
+    "static/media/image-mark-shuttleworth.png": "/space-website/static/media/image-mark-shuttleworth.fc30f35b05fc0bc4ee47.png",
+    "static/media/image-douglas-hurley.png": "/space-website/static/media/image-douglas-hurley.7540fbb61923064f065e.png",
     "static/media/background-home-desktop.jpg": "/space-website/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
     "static/media/image-moon.png": "/space-website/static/media/image-moon.d287d07182de3015952f.png",
     "static/media/background-destination-desktop.jpg": "/space-website/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
@@ -13,12 +17,12 @@
     "static/media/background-technology-desktop.jpg": "/space-website/static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
     "index.html": "/space-website/index.html",
     "static/media/logo.svg": "/space-website/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
-    "main.9506ac1c.css.map": "/space-website/static/css/main.9506ac1c.css.map",
-    "main.20617143.js.map": "/space-website/static/js/main.20617143.js.map",
+    "main.8b99ef7e.css.map": "/space-website/static/css/main.8b99ef7e.css.map",
+    "main.4bc497d3.js.map": "/space-website/static/js/main.4bc497d3.js.map",
     "787.82092441.chunk.js.map": "/space-website/static/js/787.82092441.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9506ac1c.css",
-    "static/js/main.20617143.js"
+    "static/css/main.8b99ef7e.css",
+    "static/js/main.4bc497d3.js"
   ]
 }
